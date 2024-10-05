@@ -1,0 +1,27 @@
+{
+  "version": "7",
+  "dialect": "mysql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "5",
+      "when": 1728135195528,
+      "tag": "0000_wakeful_warlock",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "5",
+      "when": 1728135283443,
+      "tag": "0001_nosy_shadowcat",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "5",
+      "when": 1728140478146,
+      "tag": "0002_black_thunderbird",
+      "breakpoints": true
+    }
+  ]
+}
