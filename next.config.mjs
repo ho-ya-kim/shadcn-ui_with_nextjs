@@ -1,15 +1,15 @@
-import Unocss from "@unocss/webpack";
+import UnoCSS from "@unocss/webpack";
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    reactStrictMode: true,
-    webpack: (config) => {
-        config.plugins.push(
-            Unocss(),
-        );
-        config.cache = false;
-        return config;
-    }
+    // reactStrictMode: true,
+    // webpack: (config) => {
+    //     config.plugins.push(
+    //         UnoCSS(),
+    //     );
+    //     config.cache = false;
+    //     return config;
+    // }
 };
 
 export default nextConfig;

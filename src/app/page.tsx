@@ -34,7 +34,7 @@ export default function Home() {
         }
     }
     return (
-        <div className="text-primary p-4">
+        <div className="flex">
             <form onSubmit={handleSubmit}>
                 <div>
                     <label htmlFor="name">Name:</label>
@@ -55,14 +55,15 @@ export default function Home() {
                         id="pw"
                         value={pw}
                         onChange={(e) => setPw(e.target.value)}
-                        className="_input_base"
+                        className="custom-input"
                         required
                     />
                 </div>
 
                 <button
                     type="submit"
-                    className="_btn_base"
+                    className="custom-btn"
+                    // style={{border: '1px solid red'}}
                 >
                     Add User
                 </button>
