@@ -12,7 +12,9 @@
     "db:push": "drizzle-kit push"
   },
   "dependencies": {
+    "@heroicons/react": "^2.1.5",
     "@planetscale/database": "^1.19.0",
+    "@unocss/preset-icons": "^0.63.3",
     "@unocss/reset": "^0.63.3",
     "drizzle-orm": "^0.33.0",
     "mysql2": "^3.11.3",
@@ -25,6 +27,8 @@
     "tls": "^0.0.1"
   },
   "devDependencies": {
+    "@iconify-json/heroicons": "^1.2.0",
+    "@iconify/json": "^2.2.256",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
